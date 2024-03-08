@@ -1,0 +1,250 @@
+:root{
+    --verde: #0f7c7c;
+    --manteca : #FEFBF6;
+    --ocre: #ECB159;
+    --marron : #B67352;
+    
+    }
+    
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* outline: solid green 1px ;*/
+    }
+    
+    div h1{
+        height: 10vh;
+    }
+    
+    h1{
+        
+       text-shadow: 0.5px 1px rgb(194, 148, 21);
+       background-color: #000000d7;
+        color: #f8fafa;
+         padding: 1.5rem;
+         text-align: center;
+         
+    }
+    
+    header{
+    height: 30vh;
+    padding: 1rem;
+    border: 1px solid white;
+    background-image: url(../images/design1_image2.jpg);
+    background-size: cover;
+    
+    position: sticky;
+         top: 0rem ;
+       
+    
+    }
+    
+    header>nav{
+    padding: 0.3rem;
+    display: inline-block;
+    position: absolute;
+        top: -2vh;
+        right: 1vh;
+    }
+    
+    header > nav a {
+    
+        height: 1rem;
+        width: 3rem;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+        border: solid #faf8f8 2px ;
+        background-color:#0f7c7c;
+        text-align: center;
+        color: #faf2f2;
+        text-decoration-line: none;
+        text-decoration: none;
+    
+    }
+    
+    header a[href="#"]{
+        background-color: #B67352;
+        color: #000000;
+       font-weight:bold  ;
+        
+    }
+    
+    
+    
+    
+    main{
+    min-height: 55vh;
+    background-color:  #000000d7;
+    }
+    
+    h2{
+        color:#FEFBF6;
+        padding: 0.5rem;
+        background-color: #B67352;
+        text-align: center;
+        text-shadow: 0.5px 0.5px #000000 ;
+        
+    }
+    
+    main>aside, main>section{
+        display: inline-block;
+    }
+    
+    main>aside {
+        width: 20%;
+        height: 100%;
+        padding: 0.3rem;
+        
+        vertical-align: top;
+        background-color:none;
+    }
+    
+    aside img{
+        border-radius: 35%;
+        width: 100%;
+        padding: 0rem;
+        background-color: #FEFBF6;
+            
+    }
+    
+    #logo:hover{
+        transform: scale(1.2) rotate(360deg);
+    
+        }
+
+
+    main>section{
+    width: 79%;
+    height: 100%;
+    padding: 0.5rem;
+    }
+    
+    .card{
+    width: 80%;
+    height: 12rem;
+    margin: 1.5rem;
+    border: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #f8fafa;
+    background-color: #0f7c7c;
+    box-shadow: 4px 4px #00000080;
+    display: inline-block;
+
+    }
+
+    
+    .cardText{
+        
+        width: 50%;
+height: 100%;
+        padding: 0.2rem;
+        vertical-align: top;
+        float: right;
+        padding: 1rem;
+    }
+    
+    .cardText h3{
+        width: 100%;
+        font-size 20px ;
+        padding: 0.2rem;
+        color: #FEFBF6;
+        text-align: right;
+        margin: 0.5rem;
+        text-shadow: 1px 1px black;
+    }
+    
+    .card img{
+    width: 50%;  
+    height: 100%;
+    border-radius: 0.5rem; 
+    object-fit: cover;
+    object-position: rem;
+    }
+    
+    
+
+    .conteinerClassAbout {
+            padding: 2rem;
+     }
+    
+    .aboutUs{
+        height: 100%;
+        background-color: #ECB159;
+    padding: 1rem;
+    margin:2rem;
+    }
+
+    .aboutUs:hover{
+        transform: scale(1.1);
+    }
+    
+    .aboutUs h3, .aboutUs p{
+    padding: 0.5rem;
+    
+    }
+    
+    .aboutUs p{
+        font-style: oblique;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    
+.aboutUs h3{
+font-size: 24px;
+color: #0f7c7c;
+text-shadow: 1.5px 1.5px #f8fafa;
+}
+
+
+    .conteinerContact p{
+        height: 100%;
+        color: #f8fafa;
+        font-size: 30px;
+            padding: 3rem;
+        text-align: center;
+    }
+    
+    
+    footer{
+    height: 5vh;
+    width: 100%;
+    padding: 0.5rem;
+    display: inline-block;
+    background-color: #B67352;
+    
+    }
+    
+    footer p{
+     display: inline-block;
+     font-size: 15px;
+     width: 50%;
+    color: #FEFBF6;
+    text-align: left;
+    display: inline-block;
+    
+    }
+    
+    footer >nav{
+        display: inline-block;
+        position: absolute;
+        right: 1rem;
+       
+     
+    
+    }
+    
+    footer nav a {
+       
+        height: 8rem;
+        width: 7rem;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        font-size: 15px;
+        text-decoration: none;
+       
+    
+        
+       
+    }

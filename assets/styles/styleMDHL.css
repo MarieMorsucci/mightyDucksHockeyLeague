@@ -1,0 +1,215 @@
+:root{
+--verde: #8cb9bd;
+--manteca : #FEFBF6;
+--ocre: #ECB159;
+--marron : #B67352;
+
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+outline: solid green 1px ;
+}
+
+div h1{
+    height: 10vh;
+}
+
+h1{
+    
+   text-shadow: 2px 2px black;
+  
+    background-color: #8cb9bd;
+    color: #FEFBF6;
+     padding: 1.5rem;
+     text-align: left;
+}
+
+
+header{
+height: 15vh;
+padding: 1rem;
+background-image: url(../images/design1_image2.jpg);
+background-size: cover;
+}
+
+header>nav{
+padding: 0.5rem;
+display: inline-block;
+position: absolute;
+    top: 8vh;
+    right: 1vh;
+}
+
+header > nav a {
+
+    height: 1.5rem;
+    width: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid #000000 2px ;
+    background-color: #ECB159;
+    text-align: center;
+    color: #000000;
+    text-decoration-line: none;
+    text-decoration: none;
+
+}
+
+header a[href="#"]{
+    background-color: #d8f007;
+    color: #000000;
+   font-weight:bold  ;
+    
+}
+
+
+
+
+main{
+min-height: 70vh;
+background-color: #8cb9bd63;
+}
+
+h2{
+    color:#FEFBF6;
+    padding: 0.5rem;
+    background-color: #B67352;
+    text-align: center;
+}
+
+main>aside, main>section{
+    display: inline-block;
+}
+
+main>aside {
+    width: 20%;
+    height: 100%;
+    padding: 0.3rem;
+    
+    vertical-align: top;
+    background-color:none;
+}
+
+aside img{
+    border-radius: 35%;
+    width: 100%;
+    padding: 0rem;
+    background-color: #FEFBF6;
+   
+   
+}
+
+main>section{
+width: 79%;
+height: 100%;
+padding: 0.5rem;
+}
+
+.card{
+width: 95%;
+padding: 1rem;
+margin: 1rem;
+border-radius: 1rem;
+background-color: #ECB159;
+box-shadow: 4px 4px #00000080;
+display: inline-block;
+}
+
+.cardText{
+    
+    width: 49%;
+    padding: 0.2rem;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1rem;
+}
+
+.cardText h3{
+    width: 100%;
+    font-size 20px ;
+    padding: 0.2rem;
+    color: #FEFBF6;
+    text-align: right;
+    margin: 0.5rem;
+    text-shadow: 1px 1px black;
+}
+
+.card img{
+width: 50%;  
+border-radius: 1rem;
+}
+
+.conteinerClassAbout {
+        padding: 2rem;
+ }
+
+.aboutUs{
+    height: 100%;
+padding: 1rem;
+margin:2rem;
+}
+
+.aboutUs h3, .aboutUs p{
+padding: 0.5rem;
+
+}
+
+.aboutUs p{
+    font-style: oblique;
+    font-size: 17px;
+    margin: 0.5rem;
+}
+
+.conteinerContact p{
+    height: 100%;
+    font-size: 25px;
+    padding: 3rem;
+    text-align:center;
+}
+
+
+footer{
+height: 5vh;
+width: 100%;
+padding: 0.5rem;
+display: inline-block;
+background-color: #B67352;
+
+}
+
+footer p{
+ display: inline-block;
+ font-size: 15px;
+ width: 50%;
+color: #FEFBF6;
+text-align: left;
+display: inline-block;
+
+}
+
+footer >nav{
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+   
+ 
+
+}
+
+footer nav a {
+   
+    height: 8rem;
+    width: 7rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    font-size: 15px;
+    text-decoration: none;
+   
+
+    
+   
+}
