@@ -1,0 +1,521 @@
+:root{
+    --verde: #0f7c7c;
+    --negro: #000000d7;
+    --manteca : #FEFBF6;
+    ----rojo: #be3c08;
+    --amarillo : #ebd939e7 ;
+       }
+
+       @font-face{
+        font-family: "Montserrat";
+        src: url(../fonts/monserrat/Montserrat-Light.ttf);
+           /* src: url(../fonts/monserrat/Montserrat-Italic.ttf);
+           src: url(../fonts/monserrat/Montserrat-Medium.ttf);
+           src: url(../fonts/monserrat/Montserrat-Bold.ttf); 
+           
+           Por cada fuente o estilo debe hacerse un font face*/
+    }
+    
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    /* outline: solid green 1px ; */
+    }
+    
+    div h1{
+        height: 10vh;
+        display: flex;
+        }
+    
+    h1{
+        
+       text-shadow: 0.5px 1px var(--amarillo);
+       background-color: #000000d7;
+       font-family: "Montserrat-Bold";
+        color: #f8fafa;
+         padding: 1.5rem;
+         text-align: center;
+         font-size: 5vh;
+        justify-content: center;
+        align-items: center;
+         
+         
+         
+    }
+    
+    header{
+    height: 30vh;
+    padding: 1rem;
+    border: 1px solid var(--manteca);
+    background-image: url(../images/design1_image2.jpg);
+    background-size: cover;
+    
+    position: sticky;
+         top:0vh ;
+       
+    
+    }
+    
+    header>nav{
+    padding: 0.2rem;
+    margin:rem;
+display: flex;  
+position: absolute;
+        top: 0vh;
+        right: 0vh;
+    }
+    
+    header > nav a {
+    
+        height: 3rem;
+        width: 8rem;
+        margin: 0rem 0.5rem 0.5rem 0.5rem;
+        padding: 0.3rem;
+        text-align: center;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        border: solid #faf8f8 2px ;
+        background-color:#164141;
+        text-align: center;
+        color: #faf2f2;
+        text-decoration-line: none;
+        text-decoration: none;
+        
+
+
+    
+    }
+    
+    header a[href="#"]{
+        background-color: var(----rojo);
+        color: #f8fafa;
+       font-weight:bold  ;
+        
+    }
+        
+    main{
+    min-height: 55vh;
+    width: 100%;
+    background-color: var(--negro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+    h2{
+        height: 5vh;
+        width: 100%;
+        font-family: "Montserrat-ExtraLight";
+        color:#FEFBF6;
+        padding: 0.5rem;
+        background-color: var(----rojo);
+        text-align: center;
+        text-shadow: 0.5px 0.5px #000000 ;
+        border: 2px solid #f8fafa;
+
+        position: sticky;
+        top: 30vh;
+        right: 40vw;
+
+        
+    }
+    
+    
+    
+    main>aside {
+        width: 20%;
+        height: 100%;
+        vertical-align: top;
+       
+    }
+        
+    #logo{
+        border-radius: 35%;
+        width: 16%;
+        padding: 0rem;
+        background-color: #FEFBF6;
+        width:;
+        position:fixed ;
+        left: 2vw;
+        top: 47vh;
+
+        border: solid 1px #000000 ;
+        box-shadow: 1.5px 1.5px 1.5px var(--amarillo);
+
+    }
+
+
+    main>section{
+    width: 80%;
+    height: 100%;
+    padding: 0.5rem;
+    
+  
+    align-items: ;
+    }
+
+    .conteinerIndex h3{
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        font-size: 40px ;
+        color: #c7c9c9;
+    }
+    
+    .card{
+    width: 35vw;
+    height: 12rem;
+    margin: 1.5rem;
+    border: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #f8fafa;
+    background-color: var(--amarillo) ;
+    box-shadow: 4px 4px #00000080;
+    display: inline-block;
+   /* z-index: 1; */
+
+    }
+
+    .card:hover{
+        transform: scale(1.1);
+     }
+    
+    
+    .cardText{
+        
+        width: 50%;
+        height: 100%;
+        padding: 0.2rem;
+        font-family: "Montserrat-Medium";
+        vertical-align: top;
+        float: right;
+        padding: 1rem;
+        
+    }
+    
+    .cardText h4{
+        width: 100%;
+        font-size 25px ;
+        padding: 0.2rem;
+        color: #0f7c7c;
+        text-align: right;
+        margin: 0.5rem;
+        text-shadow: 0.5px 0.5px #f8fafa;
+    }
+    
+    .card img{
+    width: 50%;  
+    height: 100%;
+    border-radius: 0.5rem; 
+    object-fit: cover;
+    object-position: rem;
+    }
+    
+    
+
+    .conteinerClassAbout {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+     }
+    
+    .aboutUs{
+        height: 100%;
+        background-color: var(--amarillo);
+    padding: 1rem;
+    margin:2rem;
+    border-radius: 1rem;
+    box-shadow: 10px -10px #c7c9c9;
+    }
+
+    .aboutUs:hover{
+        transform: scale(1.1);
+    }
+    
+    .aboutUs h3, .aboutUs p{
+    padding: 0.5rem;
+    
+    }
+    
+    .aboutUs p{
+        font-style: oblique;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    
+.aboutUs h3{
+font-size: 30px;
+color: #0f7c7c;
+text-shadow: 1.5px 1.5px #eaecec;
+}
+
+.conteinerContact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteinerContact h3{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 40px ;
+    color: #164141;
+}
+
+
+    .conteinerContact p{
+
+        height: 100%;
+        width: 50vw;
+        color: #f8fafa;
+        background-color: #000000a8;
+        border-radius: 1rem;
+        font-size: 30px;
+            padding: 2rem;
+    text-align: center;    }
+
+
+.contactMain , .aboutMain{
+background-image: url(../images/hockey2.jpg);
+background-size: 120%;
+
+}
+.gameInformation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+
+
+}
+
+.gameDay{
+    padding: 1rem;
+    margin: 1rem;
+    color: yellow;
+    font-style: italic;
+    font-family: serif;
+
+    font-weight: bolder;
+    text-shadow: 0.5px 0.5px #b63503;
+    font-size: 23px;
+    text-align: left;
+    
+ 
+       
+}
+
+caption{
+    font-size: 20px;
+    padding: 1rem;
+   
+    font-weight: bolder;
+    color: #eef7f7;
+}
+
+.gameDay :hover{
+    transform: scale(1.5);
+    color: yellow;
+
+}
+
+
+    table, tr, th, td{
+    
+    padding: 1rem;
+    margin: 2rem;
+    width: 70vw;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    border-collapse: collapse;
+    
+   color:#c7c9c9;
+   text-align: center;
+    }
+
+    /* td{
+        background-color: #0f7c7c8f;
+    } */
+
+    th{
+        background-color: #b63603a4;
+    }
+
+    tbody tr:nth-child(2n+1){
+        background-color: #0f7c7c8f;
+    }
+    
+
+    tbody tr:nth-child(2n){
+        background-color: #0f7c7c;
+    }
+
+
+    tbody tr:hover{
+        background-color: #000000;
+        font-size: large;
+        
+        
+    }
+
+
+
+
+
+    span{
+        font-weight: bold;
+    }
+
+    .textMain{
+
+
+        color: #c7c9c9;
+        font-size: 16px;
+        padding: 1rem;
+        width: 95vw;
+        margin: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: space-around;
+
+    }
+   
+     .contactGames{
+       
+       
+        color: #c7c9c9;
+        font-size: 16px;
+        padding: 1rem;
+        width: 95vw;
+        margin: 0.5rem;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .conteinerPolicies{
+        padding: 1rem;
+        height: 100%;
+        max-width:75%;
+        margin:1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between ;
+        color: #c7c9c9;
+     
+            }
+
+    article >h3{
+        padding: 1rem ;
+        background-color: yellow;
+        border-radius: 1rem;
+        display: flex;
+        color: #000000;
+      
+    }
+    li{
+        padding: 1rem;
+    
+        }
+
+    .title{
+        padding-left: 40px;
+        text-align: left;
+        color: yellow;
+        text-shadow: 0.5px 0.5px #000000;
+
+    }
+    #sportsmanship{
+        font-style: italic;
+        font-size: 18px;
+    }
+
+    li>p{
+        padding: 50px;
+
+    }
+
+
+
+    article .ulFirst{
+
+      
+    }
+    .ulFirst{
+        padding: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-image: url(../images/vinataIco.ico) ;
+        list-style-position: inside;
+    }
+
+    .olFirst {
+        list-style-image: none;
+        list-style-type: decimal; ;
+    }
+
+    .olSecond{
+        padding-left: 1rem;
+        list-style-type: lower-latin;
+    }
+
+    .ulSecond{
+        list-style-image: none;
+        list-style-type: disc;
+    }
+
+
+
+
+
+
+
+    footer{
+    height: 5vh;
+    width: 100%;
+    padding: 0.5rem;
+    display: inline-block;
+    background-color: #b63503;
+    border: 2px solid #f8fafa;
+    
+    }
+    
+    footer p{
+     display: inline-block;
+     font-size: 15px;
+     width: 50%;
+    color: #FEFBF6;
+    text-align: left;
+    display: inline-block;
+    
+    }
+    
+    footer >nav{
+        display: inline-block;
+        position: absolute;
+        right: 1rem;
+       
+     
+    
+    }
+    
+    footer nav a {
+       
+        height: 8rem;
+        width: 7rem;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        font-size: 15px;
+        text-decoration: none;
+        color: #f8fafa;
+        
+    }
+
+    

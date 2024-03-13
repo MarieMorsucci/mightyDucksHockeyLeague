@@ -1,42 +1,46 @@
 :root{
     --verde: #0f7c7c;
     --manteca : #FEFBF6;
-    --ocre: #ECB159;
-    --marron : #B67352;
-    
-    }
+    ----rojo: #be3c08;
+    --amarillo : #e7d216fd ;
+       }
+
+
     
     *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: "Montserrat-Medium";
+
    /* outline: solid green 1px ;*/
     }
     
     div h1{
         height: 10vh;
-    }
+        }
     
     h1{
-        
-       text-shadow: 0.5px 1px rgb(194, 148, 21);
+        font-family: "Montserrat";
+        text-shadow: 0.5px 1px var(--amarillo);
        background-color: #000000d7;
         color: #f8fafa;
          padding: 1.5rem;
          text-align: center;
+         font-size: 5vh;
+         
          
     }
     
     header{
     height: 30vh;
     padding: 1rem;
-    border: 1px solid white;
+    border: 1px solid var(--manteca);
     background-image: url(../images/design1_image2.jpg);
     background-size: cover;
     
     position: sticky;
-         top: 0rem ;
+         top:0vh ;
        
     
     }
@@ -45,18 +49,18 @@
     padding: 0.3rem;
     display: inline-block;
     position: absolute;
-        top: -2vh;
+        top: 0vh;
         right: 1vh;
     }
     
     header > nav a {
     
         height: 1rem;
-        width: 3rem;
+        width: 8rem;
         padding: 0.3rem;
         border-radius: 0.5rem;
         border: solid #faf8f8 2px ;
-        background-color:#0f7c7c;
+        background-color: #0f7c7cc4;
         text-align: center;
         color: #faf2f2;
         text-decoration-line: none;
@@ -65,8 +69,8 @@
     }
     
     header a[href="#"]{
-        background-color: #B67352;
-        color: #000000;
+        background-color: var(----rojo);
+        color: #f8fafa;
        font-weight:bold  ;
         
     }
@@ -82,9 +86,13 @@
     h2{
         color:#FEFBF6;
         padding: 0.5rem;
-        background-color: #B67352;
+        background-color: var(----rojo);
         text-align: center;
         text-shadow: 0.5px 0.5px #000000 ;
+        position: sticky;
+        top: 30vh;
+        right: 40vw;
+
         
     }
     
@@ -93,7 +101,7 @@
     }
     
     main>aside {
-        width: 20%;
+        width: 30%;
         height: 100%;
         padding: 0.3rem;
         
@@ -103,20 +111,25 @@
     
     aside img{
         border-radius: 35%;
-        width: 100%;
+        width: 20%;
         padding: 0rem;
         background-color: #FEFBF6;
             
     }
     
-    #logo:hover{
-        transform: scale(1.2) rotate(360deg);
-    
-        }
+    #logo{
+        position:fixed ;
+        left: 2vw;
+        top: 47vh;
+
+        border: solid 1px #000000 ;
+        box-shadow: 1.5px 1.5px 1.5px var(--amarillo);
+
+    }
 
 
     main>section{
-    width: 79%;
+    width: 69%;
     height: 100%;
     padding: 0.5rem;
     }
@@ -128,31 +141,38 @@
     border: 1rem;
     border-radius: 0.5rem;
     border: 1px solid #f8fafa;
-    background-color: #0f7c7c;
+    background-color: var(--amarillo);
     box-shadow: 4px 4px #00000080;
     display: inline-block;
+   /* z-index: 1; */
 
     }
 
+    .card:hover{
+        transform: scale(1.2);
+     }
+    
     
     .cardText{
         
         width: 50%;
-height: 100%;
+        height: 100%;
         padding: 0.2rem;
         vertical-align: top;
         float: right;
         padding: 1rem;
+
+        
     }
     
     .cardText h3{
         width: 100%;
-        font-size 20px ;
+        font-size 25px ;
         padding: 0.2rem;
-        color: #FEFBF6;
+        color: #000000;
         text-align: right;
         margin: 0.5rem;
-        text-shadow: 1px 1px black;
+        text-shadow: 0.5px 0.5px black;
     }
     
     .card img{
@@ -171,9 +191,11 @@ height: 100%;
     
     .aboutUs{
         height: 100%;
-        background-color: #ECB159;
+        background-color: var(--amarillo);
     padding: 1rem;
     margin:2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px #f8fafa;
     }
 
     .aboutUs:hover{
@@ -212,7 +234,7 @@ text-shadow: 1.5px 1.5px #f8fafa;
     width: 100%;
     padding: 0.5rem;
     display: inline-block;
-    background-color: #B67352;
+    background-color: #b63503;
     
     }
     
@@ -243,8 +265,8 @@ text-shadow: 1.5px 1.5px #f8fafa;
         margin: 0.2rem;
         font-size: 15px;
         text-decoration: none;
-       
-    
+        color: #f8fafa;
         
-       
     }
+
+    
