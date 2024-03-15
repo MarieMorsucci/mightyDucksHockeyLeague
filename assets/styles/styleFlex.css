@@ -21,12 +21,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
-    /* outline: solid green 1px ; */
+   /* outline: solid green 1px ; */
     }
     
     div h1{
         height: 10vh;
         display: flex;
+        
         }
     
     h1{
@@ -40,7 +41,7 @@
          font-size: 5vh;
         justify-content: center;
         align-items: center;
-         
+       
          
          
     }
@@ -51,10 +52,9 @@
     border: 1px solid var(--manteca);
     background-image: url(../images/design1_image2.jpg);
     background-size: cover;
-    
     position: sticky;
-         top:0vh ;
-       
+         top: 0vh ;
+    
     
     }
     
@@ -62,9 +62,10 @@
     padding: 0.2rem;
     margin:rem;
 display: flex;  
-position: absolute;
+justify-content: flex-end;
+/* position: absolute;
         top: 0vh;
-        right: 0vh;
+        right: 0vh; */
     }
     
     header > nav a {
@@ -336,19 +337,17 @@ caption{
    text-align: center;
     }
 
-    /* td{
-        background-color: #0f7c7c8f;
-    } */
-
+   
     th{
         background-color: #b63603a4;
     }
 
+
+    /* Para darle formato a las tablas con herencia de elementos*/
     tbody tr:nth-child(2n+1){
         background-color: #0f7c7c8f;
     }
     
-
     tbody tr:nth-child(2n){
         background-color: #0f7c7c;
     }
@@ -358,11 +357,7 @@ caption{
         background-color: #000000;
         font-size: large;
         
-        
     }
-
-
-
 
 
     span{
@@ -399,6 +394,43 @@ caption{
     }
 
 
+
+
+.maps{
+padding: 2rem;
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+justify-content: space-around;
+background-color: var(--amarillo);
+border-radius: 1rem;
+
+}
+
+.maps h4{
+color: var(----rojo);
+font-size: 22px;
+font-weight: bold;
+width: 100%;
+text-align: center;
+padding: 2rem;
+
+}
+iframe{
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+}    
+
+div h6{
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+
     .conteinerPolicies{
         padding: 1rem;
         height: 100%;
@@ -414,10 +446,13 @@ caption{
 
     article >h3{
         padding: 1rem ;
+        position: sticky;
+        top:0vh ;
         background-color: yellow;
         border-radius: 1rem;
-        display: flex;
         color: #000000;
+        font: weight 100px;
+        text-align: center;
       
     }
     li{
@@ -471,12 +506,78 @@ caption{
         list-style-type: disc;
     }
 
+    .conteinerRegistration{
+        padding: 1rem;
+        width: 80%;
+        background-color: #498a8a;
+        color: #fcffff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        row-gap: 0.8rem;
+    }
+
+    .registration{
+        width: 100%;
+        text-align: center;
+    }
 
 
 
+    form{
+        padding: 0.5rem;
+        width: 55vw;
+      
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+        gap: 1.5rem;
+       
+    }
+
+    fieldset{
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+      
+        gap: 0.5rem;
+    }
+    legend{
+        padding: 0.5rem;
+    }
 
 
 
+    label{
+        width: 100%;
+    }
+
+    input{
+        width: auto;
+        
+    }
+
+.smallLetter{
+    padding: 0.2rem;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.textSignature{
+    padding: 0.5rem;
+}
+
+button{
+padding: 0.5rem;
+justify-content: center;
+border-radius: 1rem;
+font-weight: 800;
+
+}
+
+    
     footer{
     height: 5vh;
     width: 100%;
