@@ -63,9 +63,9 @@
     margin:rem;
 display: flex;  
 justify-content: flex-end;
-/* position: absolute;
+position: absolute;
         top: 0vh;
-        right: 0vh; */
+        right: 0vh;
     }
     
     header > nav a {
@@ -137,7 +137,8 @@ justify-content: flex-end;
         width: 16%;
         padding: 0rem;
         background-color: #FEFBF6;
-        width:;
+        
+
         position:fixed ;
         left: 2vw;
         top: 47vh;
@@ -444,15 +445,28 @@ div h6{
      
             }
 
+    .conteinerPolicies article{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+
+
+    }
+
     article >h3{
         padding: 1rem ;
+        width: fit-content;
         position: sticky;
-        top:0vh ;
+        top:35vh ;
         background-color: yellow;
         border-radius: 1rem;
         color: #000000;
         font: weight 100px;
-        text-align: center;
+        text-align:  right;
+       flex-grow: 1;
+        
       
     }
     li{
